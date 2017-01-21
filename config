@@ -1,0 +1,1 @@
+macro p set browser "> ~/to_read.rss && echo %u >> ~/to_read.rss && ~/to_mail.sh"; open-in-browser ; set browser "echo %u"
