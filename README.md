@@ -7,7 +7,7 @@ run `leader + p` think "macro-pocket-this"
 
 prerequisite: `ssmtp` to run a successful `$ sendmail -s "subject" "recipient@server.com" < /path/to/txt_to_send`
 
-## install smmpt
+## install smmtp
 `$ sudo apt-get install ssmtp`
 
 `$ sudo nano /etc/ssmtp/ssmtp.conf`
