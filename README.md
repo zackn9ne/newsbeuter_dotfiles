@@ -5,6 +5,11 @@ features an awesome script for `GetPocket.com` integration, check `/scripts` and
 
 run `leader + p` think "macro-pocket-this"
 
+## install folder structure
+```
+mkdir ~/.newsbeuter/scripts && touch ~/.newsbeuter/scripts/to_mail.sh && touch ~/.newsbeuter/scripts/to_read.rss
+```
+
 prerequisite: `ssmtp` to run a successful `$ sendmail -s "subject" "recipient@server.com" < /path/to/txt_to_send`
 
 ## install smmtp
